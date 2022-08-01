@@ -15,8 +15,7 @@ const App = () => {
   return (
     <>
     <Welcome name={name} />
-    <input type="text" value={name} placeholder="Enter Your Name" onChange={getData}/>
-    <h2>Welcome to Newton School.</h2>
+    <input type="text" value={name} onChange={getData}/>
     </>
   )
 }
